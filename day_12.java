@@ -21,13 +21,16 @@ public class day_12 {
 
     
      public static void reverseArray(int[] arr){
-     int[] my_array = arr;
-     System.out.print("{");
-     for(int i = my_array.length-1;i>=0;i--){
-     System.out.print(my_array[i] +"");
-     }
-     System.out.print("}");
-      }
+         int[] my_array = arr;
+         
+         System.out.print("{");
+         
+         for(int i = my_array.length-1;i>=0;i--){
+             System.out.print(my_array[i] +"");
+         }
+         
+         System.out.print("}");
+    }
      
 
     public static void main(String[] args) {
@@ -35,8 +38,7 @@ public class day_12 {
 
         int[] reverseArray = reverseArray(my_array);
 
-        printArray(reverseArray);
-
     }
 }
+
 
