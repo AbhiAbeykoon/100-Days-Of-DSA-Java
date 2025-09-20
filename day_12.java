@@ -19,34 +19,16 @@ public class day_12 {
         return my_array;
     }
 
-    /*
-     * public static void reverseArray(int[] arr){
-     * int[] my_array = arr;
-     * System.out.print("{");
-     * for(int i = my_array.length-1;i>=0;i--){
-     * System.out.print(my_array[i] +"");
-     * }
-     * System.out.print("}");
-     * }
-     */
-
-    public static int[] reverseArray(int[] arr) {
-        int lastIndex = arr.length - 1;
-        for (int i = 0; i < arr.length / 2; i++) {
-            int temp = arr[i];
-            arr[i] = arr[lastIndex];
-            arr[lastIndex] = temp;
-            lastIndex--;
-        }
-
-        return arr;
-    }
-
-    public static void printArray(int[] printarr) {
-        for (int i = 0; i < printarr.length; i++) {
-            System.out.print(printarr[i]);
-        }
-    }
+    
+     public static void reverseArray(int[] arr){
+     int[] my_array = arr;
+     System.out.print("{");
+     for(int i = my_array.length-1;i>=0;i--){
+     System.out.print(my_array[i] +"");
+     }
+     System.out.print("}");
+      }
+     
 
     public static void main(String[] args) {
         int[] my_array = createArray();
@@ -57,3 +39,4 @@ public class day_12 {
 
     }
 }
+
