@@ -24,6 +24,8 @@ Progress Tracker
 | 11  | Min & Max Finder                    | Find smallest and largest numbers in array         |
 | 12  | Reverse an Array                    | Reverse an Array                                   |
 | 13  | Rotate an Array by k positions      | Rotate an Array by k positions Using Two For Loop  |
+| 14  | Move Zeros to End                   | shift all zeros in an array to the end while keeping the order of other numbers the same.  |
+
 
 
 
